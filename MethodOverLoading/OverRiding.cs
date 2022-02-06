@@ -8,7 +8,7 @@ namespace MethodOverRiding
 {
     public class Animal
     {
-        public void Eat()
+        public virtual void Eat()
         {
             Console.WriteLine("Animal is Eating");
         }
@@ -16,7 +16,7 @@ namespace MethodOverRiding
     }
     public class Dog:Animal
     {
-        public void Eat()
+        public override void Eat()
         {
             Console.WriteLine("Dog is Eating");
         }
