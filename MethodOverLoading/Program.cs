@@ -6,5 +6,5 @@ Console.WriteLine("Hello, World!");
 OverLoading over = new OverLoading();
 over.Add(10, 20);
 
-Dog tommy = new Animal();
+Animal tommy = new Dog ();
 tommy.Eat();

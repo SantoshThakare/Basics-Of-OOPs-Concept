@@ -15,7 +15,7 @@ namespace MethodOverRiding
         }
         public void Add(int a, int b, int c)
         {
-            Console.WriteLine("a + b =" + (a + b + c));
+            Console.WriteLine("a + b +c  =" + (a + b + c));
             Console.ReadLine();
         }
 
